@@ -1,0 +1,33 @@
+.ti1{
+
+margin-top: -500px;
+margin-left: 550px;
+
+}
+.ti2{
+
+	margin-top: -420px;
+	margin-left: 500px;
+	
+	}
+
+body{
+	overflow-x: hidden;
+}
+
+.single-img img{
+	width: 100%;
+	height: 100%;
+	opacity: .5;
+	transition: .9s;
+}
+
+.single-img:hover{
+	transform: scale(1.3);
+	z-index: 2;
+	box-shadow: 0px 2px 20px #fff;
+}
+
+.single-img:hover img{
+	opacity: 1;
+}
